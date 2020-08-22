@@ -9,9 +9,10 @@ Minimal **Kotlin Multiplatform** project using Jetpack Compose and SwiftUI.  Cur
 
 It makes use of basic API (http://open-notify.org/Open-Notify-API/People-In-Space/) to show list of people currently in
 space (inspired by https://kousenit.org/2019/12/19/a-few-astronomical-examples-in-kotlin/)!  The list is shown on Android
-using **Jetpack Compose** and on iOS using **SwiftUI**
+using **Jetpack Compose**, on iOS using **SwiftUI** and on Web using Kotlin/JS React wrapper.
 
-Related posts:
+Related posts (please be aware that these were written pre Kotlin 1.4...I plan on updating them soon
+to reflect 1.4 changes):
 * [Minimal Kotlin Multiplatform project using Compose and SwiftUI](https://johnoreilly.dev/posts/minimal-kotlin-platform-compose-swiftui/)
 * [Adding some Storage (to) Space](https://johnoreilly.dev/posts/adding-sqldelight-to-peopleinspace/)
 * [Kotlin Multiplatform running on macOS](https://johnoreilly.dev/posts/kotlinmultiplatform-macos/)
@@ -25,7 +26,7 @@ primarily focussed on use of Jetpack Compose and SwiftUI).  If you're at stage o
 beyond this then I'd definitely recommend checking out [KaMPKit](https://github.com/touchlab/KaMPKit)
 
 
-**Note**: You need to use Android Studio v4.2 (currently preview/alpha version).  Have tested on XCode v11.3.  When opening
+**Note**: You need to use Android Studio v4.2 (currently preview/canary version).  Have tested on XCode v11 and v12 beta.  When opening
 iOS/watchOS/macOS projects remember to open `.xcworkspace` file (and not `.xcodeproj` one)
 
 
